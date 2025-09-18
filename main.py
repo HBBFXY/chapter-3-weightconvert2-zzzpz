@@ -1,7 +1,5 @@
-import re
-
 def main():
-    initial_weight = float(input("请输入初始体重(kg): "))
+    initial_weight = 60.0
     print("Year\tEarth(kg)\tMoon(kg)")
     for year in range(10):
         earth_weight = initial_weight + 0.5 * year
